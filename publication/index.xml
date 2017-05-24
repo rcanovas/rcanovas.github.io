@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on </title>
+    <link>https://rcanovas.github.io/publication/index.xml</link>
+    <description>Recent content in Publications on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Rodrigo Canovas</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Full Compressed Affix Tree Representations</title>
+      <link>https://rcanovas.github.io/publication/affix_tree/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/affix_tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSAM: Compressed SAM format</title>
+      <link>https://rcanovas.github.io/publication/csam/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/csam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practical compressed string dictionaries</title>
+      <link>https://rcanovas.github.io/publication/pcsd/</link>
+      <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/pcsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shortest DNA cyclic cover in compressed space</title>
+      <link>https://rcanovas.github.io/publication/shortestdna/</link>
+      <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/shortestdna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lossy compression of quality scores in genomic data</title>
+      <link>https://rcanovas.github.io/publication/qual/</link>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/qual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practical compressed suffix trees</title>
+      <link>https://rcanovas.github.io/publication/suffix_trees/</link>
+      <pubDate>Tue, 21 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/suffix_trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practical compression for multi-alignment genomic files</title>
+      <link>https://rcanovas.github.io/publication/multi_align/</link>
+      <pubDate>Tue, 29 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/multi_align/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compression of RDF dictionaries</title>
+      <link>https://rcanovas.github.io/publication/rdf/</link>
+      <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/rdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Succinct trees in practice</title>
+      <link>https://rcanovas.github.io/publication/succinct_trees/</link>
+      <pubDate>Sat, 16 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/succinct_trees/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

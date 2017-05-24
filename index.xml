@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://rcanovas.github.io/index.xml</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Rodrigo Canovas</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Affix Trees</title>
+      <link>https://rcanovas.github.io/project/affix_tree/</link>
+      <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/project/affix_tree/</guid>
+      <description>&lt;p&gt;The Suffix Tree, a crucial and versatile data structure for string analysis of large texts, is often used in pattern matching and in bioinformatics applications. The Affix Tree generalizes the Suffix Tree in that it supports full tree functionalities in both search directions. The bottleneck of Affix Trees is their space requirement for storing the data structure. Here, we discuss existing representations and classify them into two categories: Synchronous and Asynchronous. We design Compressed Affix Tree indexes in both categories and explored how to support all tree operations bidirectionally. This work compares alternative approaches for compressing the Affix Tree, measuring their space and time trade-offs for different operations. Moreover, to our knowledge, this is the first work that compares all Compressed Affix Tree implementations offering a practical benchmark for this structure.&lt;/p&gt;
+
+&lt;p&gt;code: &lt;a href=&#34;https://github.com/rcanovas/AffixTree&#34; target=&#34;_blank&#34;&gt;https://github.com/rcanovas/AffixTree&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSAM</title>
+      <link>https://rcanovas.github.io/project/csam/</link>
+      <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/project/csam/</guid>
+      <description>&lt;p&gt;We describe CSAM (Compressed SAM format), a compression approach offering lossless and lossy compression for SAM files. The structures and techniques proposed are suitable for representing SAM files, as well as supporting fast access to the compressed information. They generate more compact lossless representations than BAM, which is currently the preferred lossless compressed SAM-equivalent format; and are self-contained, that is, they do not depend on any external resources to compress or decompress SAM files.&lt;/p&gt;
+
+&lt;p&gt;code: &lt;a href=&#34;https://github.com/rcanovas/libCSAM&#34; target=&#34;_blank&#34;&gt;https://github.com/rcanovas/libCSAM&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Full Compressed Affix Tree Representations</title>
+      <link>https://rcanovas.github.io/publication/affix_tree/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/affix_tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSAM: Compressed SAM format</title>
+      <link>https://rcanovas.github.io/publication/csam/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/csam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practical compressed string dictionaries</title>
+      <link>https://rcanovas.github.io/publication/pcsd/</link>
+      <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/pcsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shortest DNA cyclic cover in compressed space</title>
+      <link>https://rcanovas.github.io/publication/shortestdna/</link>
+      <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/shortestdna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lossy compression of quality scores in genomic data</title>
+      <link>https://rcanovas.github.io/publication/qual/</link>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/qual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practical compressed suffix trees</title>
+      <link>https://rcanovas.github.io/publication/suffix_trees/</link>
+      <pubDate>Tue, 21 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/suffix_trees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practical compression for multi-alignment genomic files</title>
+      <link>https://rcanovas.github.io/publication/multi_align/</link>
+      <pubDate>Tue, 29 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/multi_align/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compression of RDF dictionaries</title>
+      <link>https://rcanovas.github.io/publication/rdf/</link>
+      <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/rdf/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
