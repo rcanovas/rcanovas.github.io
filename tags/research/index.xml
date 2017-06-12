@@ -22,6 +22,20 @@
     </item>
     
     <item>
+      <title>COvI</title>
+      <link>https://rcanovas.github.io/project/covi/</link>
+      <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/project/covi/</guid>
+      <description>&lt;p&gt;For analysing text algorithms, for computing superstrings, or for testing random number generators, one needs to compute all overlaps between any pairs of words in a given set. The positions of overlaps of a word onto itself, or of two words, are needed to compute the absence probability of a word in a random
+text, or the numbers of common words shared by two random texts. In all these contexts, one need to compute or to query overlaps between pairs of words in a
+given set. For this sake, we designed COvI, a compressed overlap index that supports multiple queries on overlaps: like computing the correlation of two words, or listing pairs of words whose longest overlap is maximal among all possible pairs. COvI stores overlaps in a hierarchical and non redundant manner. We present an implementation that can handle datasets of millions of words and still answer queries efficiently.&lt;/p&gt;
+
+&lt;p&gt;code: &lt;a href=&#34;https://github.com/rcanovas/COvI&#34; target=&#34;_blank&#34;&gt;https://github.com/rcanovas/COvI&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CSAM</title>
       <link>https://rcanovas.github.io/project/csam/</link>
       <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
