@@ -47,5 +47,17 @@ given set. For this sake, we designed COvI, a compressed overlap index that supp
 </description>
     </item>
     
+    <item>
+      <title>Compressed Suffix Tree</title>
+      <link>https://rcanovas.github.io/project/cst_cn/</link>
+      <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/project/cst_cn/</guid>
+      <description>&lt;p&gt;The Suffix Tree is an extremely important data structure for stringology, with a wealth of applications in bioinformatics. Classical implementations require much space, which renders them useless for large problems. In this project I implemented a new version based on a recent theoretical proposal and show it yields an extremely interesting structure.&lt;/p&gt;
+
+&lt;p&gt;code: &lt;a href=&#34;https://github.com/rcanovas/CST-CN&#34; target=&#34;_blank&#34;&gt;https://github.com/rcanovas/CST-CN&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

@@ -49,6 +49,18 @@ given set. For this sake, we designed COvI, a compressed overlap index that supp
     </item>
     
     <item>
+      <title>Compressed Suffix Tree</title>
+      <link>https://rcanovas.github.io/project/cst_cn/</link>
+      <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/project/cst_cn/</guid>
+      <description>&lt;p&gt;The Suffix Tree is an extremely important data structure for stringology, with a wealth of applications in bioinformatics. Classical implementations require much space, which renders them useless for large problems. In this project I implemented a new version based on a recent theoretical proposal and show it yields an extremely interesting structure.&lt;/p&gt;
+
+&lt;p&gt;code: &lt;a href=&#34;https://github.com/rcanovas/CST-CN&#34; target=&#34;_blank&#34;&gt;https://github.com/rcanovas/CST-CN&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Full Compressed Affix Tree Representations</title>
       <link>https://rcanovas.github.io/publication/affix_tree/</link>
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
@@ -99,15 +111,6 @@ given set. For this sake, we designed COvI, a compressed overlap index that supp
       <pubDate>Tue, 21 May 2013 00:00:00 +0000</pubDate>
       
       <guid>https://rcanovas.github.io/publication/suffix_trees/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Practical compression for multi-alignment genomic files</title>
-      <link>https://rcanovas.github.io/publication/multi_align/</link>
-      <pubDate>Tue, 29 Jan 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://rcanovas.github.io/publication/multi_align/</guid>
       <description></description>
     </item>
     
