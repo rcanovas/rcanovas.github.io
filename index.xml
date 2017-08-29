@@ -11,6 +11,15 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>LZ78 Compression in Low Main Memory Space</title>
+      <link>https://rcanovas.github.io/publication/stream_lz/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/stream_lz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Affix Trees</title>
       <link>https://rcanovas.github.io/project/affix_tree/</link>
       <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
@@ -61,6 +70,18 @@ given set. For this sake, we designed COvI, a compressed overlap index that supp
     </item>
     
     <item>
+      <title>LZ78 Compression in Low Main Memory Space</title>
+      <link>https://rcanovas.github.io/project/stream_lz/</link>
+      <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/project/stream_lz/</guid>
+      <description>&lt;p&gt;We present an LZ78 compression tool that compressed a text of length n over alphabet sigma, whose output is z integers, using only O(z lg sigma) bits of main memory. The algorithms read the input text from disk in a single pass, and write the compressed output to disk. The text can also be decompressed within the same main memory usage, which is unprecedented too. The algorithms are based on hashing and, under some simplifying assumptions, run in O(n) expected time.&lt;/p&gt;
+
+&lt;p&gt;code: &lt;a href=&#34;https://github.com/rcanovas/Low-LZ78&#34; target=&#34;_blank&#34;&gt;https://github.com/rcanovas/Low-LZ78&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Full Compressed Affix Tree Representations</title>
       <link>https://rcanovas.github.io/publication/affix_tree/</link>
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
@@ -93,24 +114,6 @@ given set. For this sake, we designed COvI, a compressed overlap index that supp
       <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://rcanovas.github.io/publication/shortestdna/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lossy compression of quality scores in genomic data</title>
-      <link>https://rcanovas.github.io/publication/qual/</link>
-      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://rcanovas.github.io/publication/qual/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Practical compressed suffix trees</title>
-      <link>https://rcanovas.github.io/publication/suffix_trees/</link>
-      <pubDate>Tue, 21 May 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://rcanovas.github.io/publication/suffix_trees/</guid>
       <description></description>
     </item>
     

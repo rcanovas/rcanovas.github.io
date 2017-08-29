@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://rcanovas.github.io/publication/affix_tree/">
+  <link rel="canonical" href="https://rcanovas.github.io/publication/stream_lz/">
 
   
 
-  <title>Full Compressed Affix Tree Representations | </title>
+  <title>LZ78 Compression in Low Main Memory Space | </title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -123,10 +123,10 @@
   
 
   <div class="container pub-title">
-    <h1 itemprop="name">Full Compressed Affix Tree Representations</h1>
+    <h1 itemprop="name">LZ78 Compression in Low Main Memory Space</h1>
     <span class="pub-authors" itemprop="author">
       
-      Rodrigo Canovas, Eric Rivals
+      Diego Arroyuelo, Rodrigo Canovas, Gonzalo Navarro, Rajeev Raman
       
     </span>
     <span class="pull-right">
@@ -135,35 +135,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2frcanovas.github.io%2fpublication%2faffix_tree%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2frcanovas.github.io%2fpublication%2fstream_lz%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Full%20Compressed%20Affix%20Tree%20Representations&amp;url=https%3a%2f%2frcanovas.github.io%2fpublication%2faffix_tree%2f"
+         href="https://twitter.com/intent/tweet?text=LZ78%20Compression%20in%20Low%20Main%20Memory%20Space&amp;url=https%3a%2f%2frcanovas.github.io%2fpublication%2fstream_lz%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2frcanovas.github.io%2fpublication%2faffix_tree%2f&amp;title=Full%20Compressed%20Affix%20Tree%20Representations"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2frcanovas.github.io%2fpublication%2fstream_lz%2f&amp;title=LZ78%20Compression%20in%20Low%20Main%20Memory%20Space"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2frcanovas.github.io%2fpublication%2faffix_tree%2f&amp;title=Full%20Compressed%20Affix%20Tree%20Representations"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2frcanovas.github.io%2fpublication%2fstream_lz%2f&amp;title=LZ78%20Compression%20in%20Low%20Main%20Memory%20Space"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Full%20Compressed%20Affix%20Tree%20Representations&amp;body=https%3a%2f%2frcanovas.github.io%2fpublication%2faffix_tree%2f">
+         href="mailto:?subject=LZ78%20Compression%20in%20Low%20Main%20Memory%20Space&amp;body=https%3a%2f%2frcanovas.github.io%2fpublication%2fstream_lz%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -180,7 +180,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">The Suffix Tree, a crucial and versatile data structure for string analysis of large texts, is often used in pattern matching and in bioinformatics applications. The Affix Tree generalizes the Suffix Tree in that it supports full tree functionalities in both search directions. The bottleneck of Affix Trees is their space requirement for storing the data structure. Here, we discuss existing representations and classify them into two categories: Synchronous and Asynchronous. We design Compressed Affix Tree indexes in both categories and explored how to support all tree operations bidirectionally. This work compares alternative approaches for compressing the Affix Tree, measuring their space and time trade-offs for different operations. Moreover, to our knowledge, this is the first work that compares all Compressed Affix Tree implementations offering a practical benchmark for this structure.</p>
+  <p class="pub-abstract" itemprop="text">We present the first algorithms that perform the LZ78 compression of a text of length n over alphabet sigma, whose output is z integers, using only O(z lg sigma) bits of main memory. The algorithms read the input text from disk in a single pass, and write the compressed output to disk. The text can also be decompressed within the same main memory usage, which is unprecedented too. The algorithms are based on hashing and, under some simplifying assumptions, run in O(n) expected time.</p>
 
   
   <div class="row">
@@ -207,7 +207,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">In Proc. DCC&rsquo;17</div>
+        <div class="col-xs-12 col-sm-9">SPIRE</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -220,7 +220,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          April, 2017
+          September, 2017
         </div>
       </div>
     </div>
@@ -240,20 +240,16 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="http://ieeexplore.ieee.org/abstract/document/7921905/">
-  PDF
-</a>
 
 
 
-
-<a class="btn btn-primary btn-outline" href="https://github.com/rcanovas/AffixTree">
+<a class="btn btn-primary btn-outline" href="https://github.com/rcanovas/Low-LZ78">
   Code
 </a>
 
 
 
-<a class="btn btn-primary btn-outline" href="https://rcanovas.github.io/project/affix_tree/">
+<a class="btn btn-primary btn-outline" href="https://rcanovas.github.io/project/stream_lz/">
   Project
 </a>
 
@@ -277,13 +273,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://rcanovas.github.io/publication/csam/"><span
-      aria-hidden="true">&larr;</span> CSAM: Compressed SAM format</a></li>
+    <li class="previous"><a href="https://rcanovas.github.io/publication/affix_tree/"><span
+      aria-hidden="true">&larr;</span> Full Compressed Affix Tree Representations</a></li>
     
 
-    
-    <li class="next"><a href="https://rcanovas.github.io/publication/stream_lz/">LZ78 Compression in Low Main Memory Space <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>

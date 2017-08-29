@@ -10,6 +10,15 @@
     <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>LZ78 Compression in Low Main Memory Space</title>
+      <link>https://rcanovas.github.io/publication/stream_lz/</link>
+      <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/stream_lz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Full Compressed Affix Tree Representations</title>
       <link>https://rcanovas.github.io/publication/affix_tree/</link>
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
