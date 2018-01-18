@@ -2,13 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on </title>
-    <link>https://rcanovas.github.io/publication/index.xml</link>
+    <link>https://rcanovas.github.io/publication/</link>
     <description>Recent content in Publications on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Rodrigo Canovas</copyright>
+    <copyright>&amp;copy; 2018 Rodrigo Canovas</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://rcanovas.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>LZ78 Compression in Low Main Memory Space</title>
@@ -97,8 +99,7 @@
       <pubDate>Sat, 16 Jan 2010 00:00:00 +0000</pubDate>
       
       <guid>https://rcanovas.github.io/publication/succinct_trees/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
   </channel>

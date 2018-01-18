@@ -2,13 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on </title>
-    <link>https://rcanovas.github.io/project/index.xml</link>
+    <link>https://rcanovas.github.io/project/</link>
     <description>Recent content in Projects on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Rodrigo Canovas</copyright>
+    <copyright>&amp;copy; 2018 Rodrigo Canovas</copyright>
     <lastBuildDate>Fri, 28 Apr 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://rcanovas.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Affix Trees</title>
@@ -16,10 +18,7 @@
       <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://rcanovas.github.io/project/affix_tree/</guid>
-      <description>&lt;p&gt;The Suffix Tree, a crucial and versatile data structure for string analysis of large texts, is often used in pattern matching and in bioinformatics applications. The Affix Tree generalizes the Suffix Tree in that it supports full tree functionalities in both search directions. The bottleneck of Affix Trees is their space requirement for storing the data structure. Here, we discuss existing representations and classify them into two categories: Synchronous and Asynchronous. We design Compressed Affix Tree indexes in both categories and explored how to support all tree operations bidirectionally. This work compares alternative approaches for compressing the Affix Tree, measuring their space and time trade-offs for different operations. Moreover, to our knowledge, this is the first work that compares all Compressed Affix Tree implementations offering a practical benchmark for this structure.&lt;/p&gt;
-
-&lt;p&gt;code: &lt;a href=&#34;https://github.com/rcanovas/AffixTree&#34; target=&#34;_blank&#34;&gt;https://github.com/rcanovas/AffixTree&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>The Suffix Tree, a crucial and versatile data structure for string analysis of large texts, is often used in pattern matching and in bioinformatics applications. The Affix Tree generalizes the Suffix Tree in that it supports full tree functionalities in both search directions. The bottleneck of Affix Trees is their space requirement for storing the data structure. Here, we discuss existing representations and classify them into two categories: Synchronous and Asynchronous.</description>
     </item>
     
     <item>
@@ -28,12 +27,7 @@
       <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://rcanovas.github.io/project/covi/</guid>
-      <description>&lt;p&gt;For analysing text algorithms, for computing superstrings, or for testing random number generators, one needs to compute all overlaps between any pairs of words in a given set. The positions of overlaps of a word onto itself, or of two words, are needed to compute the absence probability of a word in a random
-text, or the numbers of common words shared by two random texts. In all these contexts, one need to compute or to query overlaps between pairs of words in a
-given set. For this sake, we designed COvI, a compressed overlap index that supports multiple queries on overlaps: like computing the correlation of two words, or listing pairs of words whose longest overlap is maximal among all possible pairs. COvI stores overlaps in a hierarchical and non redundant manner. We present an implementation that can handle datasets of millions of words and still answer queries efficiently.&lt;/p&gt;
-
-&lt;p&gt;code: &lt;a href=&#34;https://github.com/rcanovas/COvI&#34; target=&#34;_blank&#34;&gt;https://github.com/rcanovas/COvI&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>For analysing text algorithms, for computing superstrings, or for testing random number generators, one needs to compute all overlaps between any pairs of words in a given set. The positions of overlaps of a word onto itself, or of two words, are needed to compute the absence probability of a word in a random text, or the numbers of common words shared by two random texts. In all these contexts, one need to compute or to query overlaps between pairs of words in a given set.</description>
     </item>
     
     <item>
@@ -42,10 +36,7 @@ given set. For this sake, we designed COvI, a compressed overlap index that supp
       <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://rcanovas.github.io/project/csam/</guid>
-      <description>&lt;p&gt;We describe CSAM (Compressed SAM format), a compression approach offering lossless and lossy compression for SAM files. The structures and techniques proposed are suitable for representing SAM files, as well as supporting fast access to the compressed information. They generate more compact lossless representations than BAM, which is currently the preferred lossless compressed SAM-equivalent format; and are self-contained, that is, they do not depend on any external resources to compress or decompress SAM files.&lt;/p&gt;
-
-&lt;p&gt;code: &lt;a href=&#34;https://github.com/rcanovas/libCSAM&#34; target=&#34;_blank&#34;&gt;https://github.com/rcanovas/libCSAM&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>We describe CSAM (Compressed SAM format), a compression approach offering lossless and lossy compression for SAM files. The structures and techniques proposed are suitable for representing SAM files, as well as supporting fast access to the compressed information. They generate more compact lossless representations than BAM, which is currently the preferred lossless compressed SAM-equivalent format; and are self-contained, that is, they do not depend on any external resources to compress or decompress SAM files.</description>
     </item>
     
     <item>
@@ -54,10 +45,8 @@ given set. For this sake, we designed COvI, a compressed overlap index that supp
       <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://rcanovas.github.io/project/cst_cn/</guid>
-      <description>&lt;p&gt;The Suffix Tree is an extremely important data structure for stringology, with a wealth of applications in bioinformatics. Classical implementations require much space, which renders them useless for large problems. In this project I implemented a new version based on a recent theoretical proposal and show it yields an extremely interesting structure.&lt;/p&gt;
-
-&lt;p&gt;code: &lt;a href=&#34;https://github.com/rcanovas/CST-CN&#34; target=&#34;_blank&#34;&gt;https://github.com/rcanovas/CST-CN&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>The Suffix Tree is an extremely important data structure for stringology, with a wealth of applications in bioinformatics. Classical implementations require much space, which renders them useless for large problems. In this project I implemented a new version based on a recent theoretical proposal and show it yields an extremely interesting structure.
+code: https://github.com/rcanovas/CST-CN</description>
     </item>
     
     <item>
@@ -66,10 +55,16 @@ given set. For this sake, we designed COvI, a compressed overlap index that supp
       <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://rcanovas.github.io/project/stream_lz/</guid>
-      <description>&lt;p&gt;We present an LZ78 compression tool that compressed a text of length n over alphabet sigma, whose output is z integers, using only O(z lg sigma) bits of main memory. The algorithms read the input text from disk in a single pass, and write the compressed output to disk. The text can also be decompressed within the same main memory usage, which is unprecedented too. The algorithms are based on hashing and, under some simplifying assumptions, run in O(n) expected time.&lt;/p&gt;
-
-&lt;p&gt;code: &lt;a href=&#34;https://github.com/rcanovas/Low-LZ78&#34; target=&#34;_blank&#34;&gt;https://github.com/rcanovas/Low-LZ78&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>We present an LZ78 compression tool that compressed a text of length n over alphabet sigma, whose output is z integers, using only O(z lg sigma) bits of main memory. The algorithms read the input text from disk in a single pass, and write the compressed output to disk. The text can also be decompressed within the same main memory usage, which is unprecedented too. The algorithms are based on hashing and, under some simplifying assumptions, run in O(n) expected time.</description>
+    </item>
+    
+    <item>
+      <title>TMPred</title>
+      <link>https://rcanovas.github.io/project/tmpred/</link>
+      <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/project/tmpred/</guid>
+      <description>As presented at the TMPred web-service (http://www.ch.embnet.org/software/TMPRED_form.html): &amp;ldquo;The TMPred (Transmembrane Predictor) makes a prediction of membrane-spanning regions and their orientation. The algorithm is based on the statistical analysis of TMbase, a database of naturally occurring transmembrane proteins. The prediction is made using a combination of several weight-matrices for scoring&amp;rdquo;. This project offers a C++11 updated off-line version of TMPred for fasta files. Also, our version allows to modified all the internal parameters use by TMPred to detect transmembranes.</description>
     </item>
     
   </channel>

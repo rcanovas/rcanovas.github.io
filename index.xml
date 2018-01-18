@@ -2,13 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://rcanovas.github.io/index.xml</link>
+    <link>https://rcanovas.github.io/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Rodrigo Canovas</copyright>
+    <copyright>&amp;copy; 2018 Rodrigo Canovas</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://rcanovas.github.io/not_used/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/not_used/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Custom Section</title>
+      <link>https://rcanovas.github.io/not_used/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/not_used/teaching/</guid>
+      <description>&lt;p&gt;This is an example of using the &lt;em&gt;custom&lt;/em&gt; widget to create your own homepage section.&lt;/p&gt;
+
+&lt;p&gt;To remove this section, either delete &lt;code&gt;content/home/teaching.md&lt;/code&gt; or edit the frontmatter of the file to deactivate the widget by setting &lt;code&gt;active = false&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://rcanovas.github.io/not_used/tags/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/not_used/tags/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>LZ78 Compression in Low Main Memory Space</title>
@@ -82,6 +112,23 @@ given set. For this sake, we designed COvI, a compressed overlap index that supp
     </item>
     
     <item>
+      <title>TMPred</title>
+      <link>https://rcanovas.github.io/project/tmpred/</link>
+      <pubDate>Fri, 28 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/project/tmpred/</guid>
+      <description>&lt;p&gt;As presented at the TMPred web-service (&lt;a href=&#34;http://www.ch.embnet.org/software/TMPRED_form.html):&#34; target=&#34;_blank&#34;&gt;http://www.ch.embnet.org/software/TMPRED_form.html):&lt;/a&gt; &amp;ldquo;The TMPred (Transmembrane
+Predictor) makes a prediction of membrane-spanning regions and their orientation. The algorithm is based on the statistical
+analysis of TMbase, a database of naturally occurring transmembrane proteins. The prediction is made using a combination of
+several weight-matrices for scoring&amp;rdquo;. This project offers a C++11 updated off-line version of TMPred for fasta files. Also,
+our version allows to modified all the internal parameters use by TMPred to detect transmembranes.
+For more information of how TMPred works please refer to &lt;a href=&#34;http://www.ch.embnet.org/software/tmbase/TMBASE_doc.html&#34; target=&#34;_blank&#34;&gt;http://www.ch.embnet.org/software/tmbase/TMBASE_doc.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;code: &lt;a href=&#34;https://github.com/rcanovas/TMPred&#34; target=&#34;_blank&#34;&gt;https://github.com/rcanovas/TMPred&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Full Compressed Affix Tree Representations</title>
       <link>https://rcanovas.github.io/publication/affix_tree/</link>
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
@@ -114,6 +161,15 @@ given set. For this sake, we designed COvI, a compressed overlap index that supp
       <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://rcanovas.github.io/publication/shortestdna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lossy compression of quality scores in genomic data</title>
+      <link>https://rcanovas.github.io/publication/qual/</link>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rcanovas.github.io/publication/qual/</guid>
       <description></description>
     </item>
     
